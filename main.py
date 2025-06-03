@@ -1,4 +1,5 @@
 import os
+from highpyve import anipan
 #TODO (All): Import respective modules
 
 def clear():
@@ -26,8 +27,7 @@ while True:
         
     match user_choice:
         case 1:  
-            # TODO (ANIPAN): Add Module
-            pass
+            anipan.anipan_menu()
         case 2: 
             # TODO (TOLENTINO): Add Module
             pass
