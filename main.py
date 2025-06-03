@@ -1,6 +1,5 @@
 import os
-from highpyve import anipan, bartolome, tolentino, bayos
-#TODO (All): Import respective modules
+from highpyve import anipan, bartolome, tolentino, bayos, ocariza
 
 def clear():
     os.system('cls' if os.name == 'nt' else 'clear')
@@ -32,13 +31,10 @@ while True:
             tolentino.tolentino_menu()
         case 3:  
             bartolome.bartolome_menu()
-            pass
         case 4:  
-            # TODO (OCARIZA): Add Module
-            pass
+            ocariza.ocariza_menu()
         case 5:  
             bayos.bayos_main()
-            pass
         case 6:
             clear()
             print("Thank you for using HighPyve Main Menu! Exiting...")

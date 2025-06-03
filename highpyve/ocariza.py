@@ -65,4 +65,3 @@ def show_fun_facts():
     print("- I secretly enjoy debugging—it's like solving a mystery.")
     buffer()
 
-ocariza_menu()
