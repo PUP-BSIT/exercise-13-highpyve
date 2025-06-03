@@ -1,5 +1,5 @@
 import os
-from highpyve import anipan, bartolome, tolentino
+from highpyve import anipan, bartolome, tolentino, bayos
 #TODO (All): Import respective modules
 
 def clear():
@@ -37,7 +37,7 @@ while True:
             # TODO (OCARIZA): Add Module
             pass
         case 5:  
-            # TODO (BAYOS): Add Module
+            bayos.bayos_main()
             pass
         case 6:
             clear()
