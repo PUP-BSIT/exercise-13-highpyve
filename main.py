@@ -1,5 +1,5 @@
 import os
-from highpyve import anipan, bartolome
+from highpyve import anipan, bartolome, tolentino
 #TODO (All): Import respective modules
 
 def clear():
@@ -29,8 +29,7 @@ while True:
         case 1:  
             anipan.anipan_menu()
         case 2: 
-            # TODO (TOLENTINO): Add Module
-            pass
+            tolentino.tolentino_menu()
         case 3:  
             bartolome.bartolome_menu()
             pass
