@@ -24,6 +24,11 @@ while True:
         input("Press Enter to continue...")
         continue
         
+    if user_choice == 0:
+        clear()
+        print("Thank you for using HighPyve Main Menu! Exiting...")
+        break
+
     match user_choice:
         case 1:  
             anipan.anipan_menu()
@@ -35,10 +40,6 @@ while True:
             ocariza.ocariza_menu()
         case 5:  
             bayos.bayos_main()
-        case 0:
-            clear()
-            print("Thank you for using HighPyve Main Menu! Exiting...")
-            break
         case _:
-            print("\nInvalid choice! Please select a number from 1 to 6.")
+            print("\nInvalid choice! Please select a number from 1 to 5.")
             input("\nPress Enter to continue...")
