@@ -36,10 +36,7 @@ def bayos_main():
            case 2:
                show_goals()
            case 3:
-               clear_screen()
-               print("\nRooting for you always, Eurielle. " 
-               "You’re meant for great things.")
-               buffer()
+               show_ocariza_comment()
            case 4: 
                 clear_screen()
                 print("Comment from Highpyve-Mika")
@@ -88,3 +85,9 @@ def show_goals():
    print("4. To live a better life.")
    print("*************************************************")
    buffer()
+
+def show_ocariza_comment():
+    clear_screen()
+    print("\nRooting for you always, Eurielle. " 
+    "You’re meant for great things.")
+    buffer()
