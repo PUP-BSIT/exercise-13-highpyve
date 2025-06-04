@@ -17,7 +17,8 @@ def tolentino_menu():
         print("║                                                      ║")
         print("║   [1] Basic Info                                     ║")
         print("║   [2] Motivational Quotes                            ║")
-        print("║   [3] Return to Main Menu                            ║")
+        print("║   [3] Jaira's Comment                                ║")
+        print("║   [4] Return to Main Menu                            ║")
         print("║                                                      ║")
         print("╚══════════════════════════════════════════════════════╝")
 
@@ -34,6 +35,10 @@ def tolentino_menu():
             case 2:
                 show_quotes()
             case 3:
+                print("\nMotivated people motivate people—"
+                "and you’re doing just that, Rose.")
+                buffer()
+            case 4:
                 exit_program()
                 break
             case _:
