@@ -42,10 +42,7 @@ def anipan_menu():
                 print("Hope you achieve every goal that you have!\n")
                 buffer()
             case 5:
-                clear_screen()
-                print("Comment from Highpyve-Eurielle")
-                print("Your ideas are always thoughtful and well-articulated.")
-                buffer() 
+                show_bayos_comment()
             case 6:
                 show_tolentino_comment()
             case 0:
@@ -88,4 +85,10 @@ def show_tolentino_comment():
     print("Comment from Highpyve-Rose")
     print("Great job, Kristoffer! Your clean menu and "
             "well-structured functions show solid coding skills!")
+    buffer() 
+
+def show_bayos_comment():
+    clear_screen()
+    print("Comment from Highpyve-Eurielle")
+    print("Your ideas are always thoughtful and well-articulated.")
     buffer() 
