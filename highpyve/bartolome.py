@@ -18,6 +18,7 @@ def bartolome_menu():
         print("3. Know my favorite things.")
         print("4. Jaira's Comment")
         print("5. Kristoffer's Comment")
+        print("6. Eurielle's Comment")
         print("0. Exit profile.")
         print("*************************************************")
         
@@ -41,6 +42,9 @@ def bartolome_menu():
                 buffer()
             case 5: 
                 print("You did a really great job!")
+                buffer()
+            case 6:
+                print("Your attention to detail is impressive, Bartolome.")
                 buffer()
             case 0:
                 print("Thank you for visiting Mikaela's profile!")

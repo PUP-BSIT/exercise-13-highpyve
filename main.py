@@ -15,10 +15,10 @@ while True:
     print("[3] Mikaela Joy Bartolome")
     print("[4] Jaira Isabel Ocariza")
     print("[5] Eurielle Bayos")
-    print("[6] Exit\n")
+    print("[0] Exit\n")
     
     try:
-        user_choice = int(input("Enter your choice (1-6): "))
+        user_choice = int(input("Enter your choice: "))
     except ValueError:
         print("\nInvalid input! Please enter a number.")
         input("Press Enter to continue...")
