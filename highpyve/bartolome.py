@@ -16,6 +16,7 @@ def bartolome_menu():
         print("1. Know my Basic Information.")
         print("2. Know my Goals in life.")
         print("3. Know my favorite things.")
+        print("4. Jaira's Comments")
         print("0. Exit profile.")
         print("*************************************************")
         
@@ -33,6 +34,10 @@ def bartolome_menu():
                 show_goals()
             case 3:
                 show_favorites()
+            case 4:
+                print("Your dreams are valid, and your direction is clear." \
+                      "Keep going, Mika!")
+                buffer()
             case 0:
                 print("Thank you for visiting Mikaela's profile!")
                 break
