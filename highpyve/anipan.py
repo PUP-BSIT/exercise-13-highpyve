@@ -15,10 +15,11 @@ def anipan_menu():
         print("\nPlease choose an option:")
         print("1. Basic Info")
         print("2. Goals")
-        print("3. Exit")
+        print("3. Jaira's Comment")
+        print("4. Exit")
 
         try:
-            choice = int(input("Enter your choice (1-3): "))
+            choice = int(input("Enter your choice (1-4): "))
         except ValueError:
             print("\nInvalid input. Please try again.")
             continue
@@ -29,6 +30,10 @@ def anipan_menu():
             case 2:
                 show_goals()
             case 3:
+                print("\nClear code, clear goals. " \
+                      "Keep coding with purpose, Kristoffer!")
+                buffer()
+            case 4:
                 print("\nGoodbye! Thank you for visiting.")
                 break
             case _:
