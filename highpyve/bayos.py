@@ -36,7 +36,7 @@ def bayos_main():
            case 2:
                show_goals()
            case 3:
-               print("\nRooting for you always, Eurielle. " \
+               print("\nRooting for you always, Eurielle. " 
                "You’re meant for great things.")
                buffer()
            case 4: 
@@ -47,7 +47,7 @@ def bayos_main():
                buffer()
            case 6:
                 print("Comment from Highpyve-Rose")
-                print("Well done, Eurielle! Your clear layout and meaningful"
+                print("Well done, Eurielle! Your clear layout and meaningful "
                       "goals show strong purpose and direction!")
                 buffer() 
            case 0:

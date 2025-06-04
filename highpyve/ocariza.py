@@ -45,12 +45,12 @@ def ocariza_menu():
                 print("You’ve done a solid and thorough job!")
                 buffer()
             case 6:
-                print("I really appreciate  your reliability, " \
+                print("I really appreciate  your reliability, " 
                 "you're someone we can always count on.")
                 buffer()
             case 6:
                 print("Comment from Highpyve-Rose")
-                print("Amazing work, Jaira! Your colorful, well-crafted"
+                print("Amazing work, Jaira! Your colorful, well-crafted "
                       "interface makes your code both fun and impressive")
                 buffer() 
             case 0:
