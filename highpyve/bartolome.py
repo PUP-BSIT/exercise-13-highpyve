@@ -43,9 +43,7 @@ def bartolome_menu():
                       "Keep going, Mika!")
                 buffer()
             case 5: 
-                clear_screen()
-                print("You did a really great job!")
-                buffer()
+               show_anipan_comment()
             case 6:
                 clear_screen()
                 print("Your attention to detail is impressive, Bartolome.")
@@ -104,4 +102,11 @@ def show_tolentino_comment():
     print("Comment from Highpyve-Rose")
     print("Nice work, Mika! Your organized and lively code reflects"
             " great enthusiasm!")
+    buffer()
+
+def show_anipan_comment():
+    clear_screen()
+    print("Comment from Highpyve-Kristoffer")
+    clear_screen()
+    print("You did a really great job!")
     buffer()
