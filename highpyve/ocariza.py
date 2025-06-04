@@ -39,25 +39,13 @@ def ocariza_menu():
             case 3:
                 show_fun_facts()
             case 4:
-                clear_screen()
-                print("Comment from Highpyve-Mika")
-                print("Drop skincare routine!\n")
-                buffer()
+                show_bartolome_comment()
             case 5: 
-                clear_screen()
-                print("You’ve done a solid and thorough job!")
-                buffer()
+                show_anipan_comment()
             case 6:
-                clear_screen()
-                print("I really appreciate  your reliability, " 
-                "you're someone we can always count on.")
-                buffer()
+                show_bayos_comment()
             case 7:
-                clear_screen()
-                print("Comment from Highpyve-Rose")
-                print("Amazing work, Jaira! Your colorful, well-crafted "
-                      "interface makes your code both fun and impressive")
-                buffer() 
+                show_tolentino_comment()
             case 0:
                 print(Fore.LIGHTYELLOW_EX + "Exiting menu... Goodbye!")
                 break
@@ -77,8 +65,10 @@ def show_basic_info():
 def show_goals():
     clear_screen()
     print(Fore.LIGHTMAGENTA_EX + "Goals")
-    print("- I aspire to become a skilled Full Stack Developer,")
-    print("- who crafts intuitive and elegant digital experiences!")
+    print("- To graduate and help support my family’s future.")
+    print("- To grow into someone my younger self would be proud of.")
+    print("- To become a skilled Full Stack Developer,"
+          " who crafts intuitive and elegant digital experiences!")
     buffer()
 
 def show_fun_facts():
@@ -89,3 +79,26 @@ def show_fun_facts():
     print("- I secretly enjoy debugging—it's like solving a mystery.")
     buffer()
 
+def show_bartolome_comment():
+    clear_screen()
+    print("Comment from Highpyve-Mika")
+    print("Drop skincare routine!\n")
+    buffer()
+
+def show_anipan_comment():
+    clear_screen()
+    print("You’ve done a solid and thorough job!")
+    buffer()
+
+def show_bayos_comment():
+    clear_screen()
+    print("I really appreciate your reliability, " 
+          "you're someone we can always count on.")
+    buffer()
+
+def show_tolentino_comment():
+    clear_screen()
+    print("Comment from Highpyve-Rose")
+    print("Amazing work, Jaira! Your colorful, well-crafted "
+          "interface makes your code both fun and impressive")
+    buffer()
