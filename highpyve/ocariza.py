@@ -44,9 +44,7 @@ def ocariza_menu():
                 print("Drop skincare routine!\n")
                 buffer()
             case 5: 
-                clear_screen()
-                print("You’ve done a solid and thorough job!")
-                buffer()
+                show_anipan_comment()
             case 6:
                 clear_screen()
                 print("I really appreciate your reliability, " 
@@ -56,8 +54,8 @@ def ocariza_menu():
                 clear_screen()
                 print("Comment from Highpyve-Rose")
                 print("Amazing work, Jaira! Your colorful, well-crafted "
-                    "interface makes your code both fun and impressive")
-                buffer()
+                      "interface makes your code both fun and impressive")
+                buffer() 
             case 0:
                 print(Fore.LIGHTYELLOW_EX + "Exiting menu... Goodbye!")
                 break
@@ -89,4 +87,17 @@ def show_fun_facts():
     print("- I enjoy skincare routines as self-care.")
     print("- Patch, my dog, is my coding buddy!")
     print("- I secretly enjoy debugging—it's like solving a mystery.")
+    buffer()
+
+def show_tolentino_comment():
+    clear_screen()
+    print("Comment from Highpyve-Rose")
+    print("Amazing work, Jaira! Your colorful, well-crafted "
+            "interface makes your code both fun and impressive")
+    buffer()
+
+def show_anipan_comment():
+    clear_screen()
+    print("Comment from Highpyve-Kristoffer")
+    print("You’ve done a solid and thorough job!")
     buffer()

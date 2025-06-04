@@ -43,15 +43,9 @@ def bayos_main():
                 print("Hope you live a better life from now on!\n")
                 buffer()
            case 5: 
-               clear_screen()
-               print("This looks very neat and well thought out!")
-               buffer()
+               show_anipan_comment()
            case 6:
-                clear_screen()
-                print("Comment from Highpyve-Rose")
-                print("Well done, Eurielle! Your clear layout and meaningful "
-                      "goals show strong purpose and direction!")
-                buffer() 
+                show_tolentino_comment()
            case 0:
                print("\nThank you for visiting Eurielle's profile!")
                break
@@ -91,4 +85,17 @@ def show_ocariza_comment():
     print("Comment from Highpyve-Jaira")
     print("\nRooting for you always, Eurielle. " 
     "You’re meant for great things.")
+    buffer()
+
+def show_tolentino_comment():
+    clear_screen()
+    print("Comment from Highpyve-Rose")
+    print("Well done, Eurielle! Your clear layout and meaningful "
+            "goals show strong purpose and direction!")
+    buffer()
+
+def show_anipan_comment():
+    clear_screen()
+    print("Comment from Highpyve-Kristoffer")
+    print("This looks very neat and well thought out!")
     buffer()

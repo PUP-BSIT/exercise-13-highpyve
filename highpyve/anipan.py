@@ -21,8 +21,10 @@ def anipan_menu():
         print("6. Rose's Comment")
         print("0. Exit")
 
+        choice = input("Enter your choice: ")
+        
         try:
-            choice = int(input("Enter your choice (1-6): "))
+            choice = int(choice)
         except ValueError:
             print("\nInvalid input. Please try again.")
             continue
@@ -45,11 +47,7 @@ def anipan_menu():
                 print("Your ideas are always thoughtful and well-articulated.")
                 buffer() 
             case 6:
-                clear_screen()
-                print("Comment from Highpyve-Rose")
-                print("Great job, Kristoffer! Your clean menu and "
-                      "well-structured functions show solid coding skills!")
-                buffer() 
+                show_tolentino_comment()
             case 0:
                 print("\nGoodbye! Thank you for visiting.")
                 break
@@ -84,3 +82,10 @@ def show_ocariza_comment():
     print("\nClear code, clear goals. " 
             "Keep coding with purpose, Kristoffer!")
     buffer()
+    
+def show_tolentino_comment():
+    clear_screen()
+    print("Comment from Highpyve-Rose")
+    print("Great job, Kristoffer! Your clean menu and "
+            "well-structured functions show solid coding skills!")
+    buffer() 

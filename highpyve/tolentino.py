@@ -45,9 +45,7 @@ def tolentino_menu():
                 print("We do create our opportunities. Love the quote!")
                 buffer()
             case 5:
-                clear_screen()
-                print("Keep up the good work, this turned out great!")
-                buffer()
+                show_anipan_comment()
             case 6:
                 clear_screen()
                 print("You handle challenges with such calm and focus.")
@@ -95,4 +93,11 @@ def show_ocariza_comment():
 
 def exit_program():
     clear_screen()
+    buffer()
+
+def show_anipan_comment():
+    clear_screen()
+    print("Comment from Highpyve-Kristoffer")
+    clear_screen()
+    print("Keep up the good work, this turned out great!")
     buffer()

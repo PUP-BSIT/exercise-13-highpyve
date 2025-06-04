@@ -40,19 +40,13 @@ def bartolome_menu():
             case 4:
                 show_ocariza_comment()
             case 5: 
-                clear_screen()
-                print("You did a really great job!")
-                buffer()
+               show_anipan_comment()
             case 6:
                 clear_screen()
                 print("Your attention to detail is impressive, Bartolome.")
                 buffer()
             case 7:
-                clear_screen()
-                print("Comment from Highpyve-Rose")
-                print("Nice work, Mika! Your organized and lively code reflects"
-                      " great enthusiasm!")
-                buffer() 
+                show_tolentino_comment() 
             case 0:
                 print("Thank you for visiting Mikaela's profile!")
                 break
@@ -105,4 +99,17 @@ def show_ocariza_comment():
     print("Comment from Highpyve-Jaira")
     print("Your dreams are valid, and your direction is clear." 
             "Keep going, Mika!")
+    buffer()
+
+def show_tolentino_comment():
+    clear_screen()
+    print("Comment from Highpyve-Rose")
+    print("Nice work, Mika! Your organized and lively code reflects"
+            " great enthusiasm!")
+    buffer()
+
+def show_anipan_comment():
+    clear_screen()
+    print("Comment from Highpyve-Kristoffer")
+    print("You did a really great job!")
     buffer()
