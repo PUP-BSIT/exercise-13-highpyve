@@ -46,9 +46,7 @@ def bayos_main():
                 print("Hope you live a better life from now on!\n")
                 buffer()
            case 5: 
-               clear_screen()
-               print("This looks very neat and well thought out!")
-               buffer()
+               show_anipan_comment()
            case 6:
                 show_tolentino_comment()
            case 0:
@@ -90,4 +88,11 @@ def show_tolentino_comment():
     print("Comment from Highpyve-Rose")
     print("Well done, Eurielle! Your clear layout and meaningful "
             "goals show strong purpose and direction!")
+    buffer()
+
+def show_anipan_comment():
+    clear_screen()
+    print("Comment from Highpyve-Kristoffer")
+    clear_screen()
+    print("This looks very neat and well thought out!")
     buffer()
