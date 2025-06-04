@@ -53,7 +53,7 @@ def ocariza_menu():
                 "you're someone we can always count on.")
                 buffer()
             case 7:
-                clear_screen
+                clear_screen()
                 print("Comment from Highpyve-Rose")
                 print("Amazing work, Jaira! Your colorful, well-crafted "
                       "interface makes your code both fun and impressive")
