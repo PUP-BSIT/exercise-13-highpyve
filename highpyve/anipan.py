@@ -27,6 +27,7 @@ def anipan_menu():
             choice = int(choice)
         except ValueError:
             print("\nInvalid input. Please try again.")
+            buffer()
             continue
 
         match choice:
@@ -47,6 +48,7 @@ def anipan_menu():
                 break
             case _:
                 print("\nInvalid choice. Please enter a valid number.")
+                buffer()
 
 def show_basic_info():
     clear_screen()

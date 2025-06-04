@@ -29,6 +29,7 @@ def ocariza_menu():
             choice = int(input(Fore.LIGHTYELLOW_EX + "\nEnter your choice: "))
         except ValueError:
             print(Fore.LIGHTRED_EX + "Please enter a valid number.")
+            buffer()
             continue
 
         match choice:
@@ -55,6 +56,7 @@ def ocariza_menu():
                 break
             case _:
                 print(Fore.LIGHTRED_EX + "Invalid choice. Please try again.")
+                buffer()
 
 def show_basic_info():
     clear_screen()
