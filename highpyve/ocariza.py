@@ -44,9 +44,7 @@ def ocariza_menu():
                 print("Drop skincare routine!\n")
                 buffer()
             case 5: 
-                clear_screen()
-                print("You’ve done a solid and thorough job!")
-                buffer()
+                show_anipan_comment()
             case 6:
                 clear_screen()
                 print("I really appreciate  your reliability, " 
@@ -90,4 +88,11 @@ def show_tolentino_comment():
     print("Comment from Highpyve-Rose")
     print("Amazing work, Jaira! Your colorful, well-crafted "
             "interface makes your code both fun and impressive")
+    buffer()
+
+def show_anipan_comment():
+    clear_screen()
+    print("Comment from Highpyve-Kristoffer")
+    clear_screen()
+    print("You’ve done a solid and thorough job!")
     buffer()
