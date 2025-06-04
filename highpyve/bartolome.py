@@ -38,10 +38,7 @@ def bartolome_menu():
             case 3:
                 show_favorites()
             case 4:
-                clear_screen()
-                print("Your dreams are valid, and your direction is clear." 
-                      "Keep going, Mika!")
-                buffer()
+                show_ocariza_comment()
             case 5: 
                 clear_screen()
                 print("You did a really great job!")
@@ -101,4 +98,10 @@ def show_favorites():
     print("3. My Melody merch or anything pink.")
     print("4. Karaoke booths.")
     print("*************************************************")
+    buffer()
+
+def show_ocariza_comment():
+    clear_screen()
+    print("Your dreams are valid, and your direction is clear." 
+            "Keep going, Mika!")
     buffer()
