@@ -21,8 +21,10 @@ def anipan_menu():
         print("6. Rose's Comment")
         print("0. Exit")
 
+        choice = input("Enter your choice: ")
+        
         try:
-            choice = int(input("Enter your choice (1-6): "))
+            choice = int(choice)
         except ValueError:
             print("\nInvalid input. Please try again.")
             continue
