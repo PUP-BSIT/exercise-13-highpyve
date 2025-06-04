@@ -80,6 +80,7 @@ def show_goals():
 
 def show_ocariza_comment():
     clear_screen()
+    print("Comment from Highpyve-Jaira")
     print("\nClear code, clear goals. " 
             "Keep coding with purpose, Kristoffer!")
     buffer()
