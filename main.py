@@ -35,7 +35,7 @@ while True:
             ocariza.ocariza_menu()
         case 5:  
             bayos.bayos_main()
-        case 6:
+        case 0:
             clear()
             print("Thank you for using HighPyve Main Menu! Exiting...")
             break
