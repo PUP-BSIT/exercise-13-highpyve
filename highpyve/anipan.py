@@ -48,11 +48,7 @@ def anipan_menu():
                 print("Your ideas are always thoughtful and well-articulated.")
                 buffer() 
             case 6:
-                clear_screen()
-                print("Comment from Highpyve-Rose")
-                print("Great job, Kristoffer! Your clean menu and "
-                      "well-structured functions show solid coding skills!")
-                buffer() 
+                show_tolentino_comment()
             case 0:
                 print("\nGoodbye! Thank you for visiting.")
                 break
@@ -80,3 +76,10 @@ def show_goals():
     print("6. Keep improving and learning continuously.")
     print("7. Make a positive impact on others and the community.")
     buffer()
+    
+def show_tolentino_comment():
+    clear_screen()
+    print("Comment from Highpyve-Rose")
+    print("Great job, Kristoffer! Your clean menu and "
+            "well-structured functions show solid coding skills!")
+    buffer() 
