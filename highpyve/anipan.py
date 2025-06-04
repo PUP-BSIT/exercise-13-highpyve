@@ -4,7 +4,7 @@ def clear_screen():
     os.system('cls' if os.name == 'nt' else 'clear')
 
 def buffer():
-    input("Press [ENTER] to return to main menu...")
+    input("\nPress [ENTER] to return to main menu...")
     clear_screen() 
 
 def anipan_menu(): 
@@ -33,17 +33,22 @@ def anipan_menu():
             case 2:
                 show_goals()
             case 3:
+                clear_screen()
                 print("\nClear code, clear goals. " 
                       "Keep coding with purpose, Kristoffer!")
                 buffer()
             case 4:
+                clear_screen()
                 print("Comment from Highpyve-Mika")
                 print("Hope you achieve every goal that you have!\n")
+                buffer()
             case 5:
+                clear_screen()
                 print("Comment from Highpyve-Eurielle")
                 print("Your ideas are always thoughtful and well-articulated.")
                 buffer() 
             case 6:
+                clear_screen()
                 print("Comment from Highpyve-Rose")
                 print("Great job, Kristoffer! Your clean menu and "
                       "well-structured functions show solid coding skills!")
