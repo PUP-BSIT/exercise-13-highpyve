@@ -20,6 +20,7 @@ def ocariza_menu():
         print("2. Goals")
         print("3. Fun Facts")
         print("4. Mikaela's Comment")
+        print("5. Kristoffer's Comment")
         print("0. Exit")
 
         try:
@@ -38,6 +39,9 @@ def ocariza_menu():
             case 4:
                 print("Comment from Highpyve-Mika")
                 print("Drop skincare routine!\n")
+            case 5: 
+                print("You’ve done a solid and thorough job!")
+                buffer()
             case 0:
                 print(Fore.LIGHTYELLOW_EX + "Exiting menu... Goodbye!")
                 break
