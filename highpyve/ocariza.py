@@ -53,11 +53,7 @@ def ocariza_menu():
                 "you're someone we can always count on.")
                 buffer()
             case 7:
-                clear_screen()
-                print("Comment from Highpyve-Rose")
-                print("Amazing work, Jaira! Your colorful, well-crafted "
-                      "interface makes your code both fun and impressive")
-                buffer() 
+                show_tolentino_comment()
             case 0:
                 print(Fore.LIGHTYELLOW_EX + "Exiting menu... Goodbye!")
                 break
@@ -89,3 +85,9 @@ def show_fun_facts():
     print("- I secretly enjoy debugging—it's like solving a mystery.")
     buffer()
 
+def show_tolentino_comment():
+    clear_screen()
+    print("Comment from Highpyve-Rose")
+    print("Amazing work, Jaira! Your colorful, well-crafted "
+            "interface makes your code both fun and impressive")
+    buffer()
