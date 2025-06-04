@@ -32,7 +32,7 @@ def anipan_menu():
             case 3:
                 print("\nClear code, clear goals. " \
                       "Keep coding with purpose, Kristoffer!")
-                print("\nGoodbye! Thank you for visiting.")
+                buffer()
             case 4:
                 print("\nGoodbye! Thank you for visiting.")
                 break
