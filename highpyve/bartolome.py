@@ -42,9 +42,7 @@ def bartolome_menu():
             case 5: 
                show_anipan_comment()
             case 6:
-                clear_screen()
-                print("Your attention to detail is impressive, Bartolome.")
-                buffer()
+                show_bayos_comment()
             case 7:
                 show_tolentino_comment() 
             case 0:
@@ -112,4 +110,10 @@ def show_anipan_comment():
     clear_screen()
     print("Comment from Highpyve-Kristoffer")
     print("You did a really great job!")
+    buffer()
+
+def show_bayos_comment():
+    clear_screen()
+    print("Comment from Highpyve-Eurielle")
+    print("Your attention to detail is impressive, Bartolome.")
     buffer()
