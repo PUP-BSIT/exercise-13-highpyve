@@ -50,11 +50,7 @@ def bayos_main():
                print("This looks very neat and well thought out!")
                buffer()
            case 6:
-                clear_screen()
-                print("Comment from Highpyve-Rose")
-                print("Well done, Eurielle! Your clear layout and meaningful "
-                      "goals show strong purpose and direction!")
-                buffer() 
+                show_tolentino_comment()
            case 0:
                print("\nThank you for visiting Eurielle's profile!")
                break
@@ -88,3 +84,10 @@ def show_goals():
    print("4. To live a better life.")
    print("*************************************************")
    buffer()
+
+def show_tolentino_comment():
+    clear_screen()
+    print("Comment from Highpyve-Rose")
+    print("Well done, Eurielle! Your clear layout and meaningful "
+            "goals show strong purpose and direction!")
+    buffer()
