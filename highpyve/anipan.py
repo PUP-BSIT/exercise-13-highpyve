@@ -33,7 +33,7 @@ def anipan_menu():
             case 2:
                 show_goals()
             case 3:
-                print("\nClear code, clear goals. " \
+                print("\nClear code, clear goals. " 
                       "Keep coding with purpose, Kristoffer!")
                 buffer()
             case 4:
@@ -45,7 +45,7 @@ def anipan_menu():
                 buffer() 
             case 6:
                 print("Comment from Highpyve-Rose")
-                print("Great job, Kristoffer! Your clean menu and"
+                print("Great job, Kristoffer! Your clean menu and "
                       "well-structured functions show solid coding skills!")
                 buffer() 
             case 0:
