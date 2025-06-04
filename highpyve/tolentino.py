@@ -91,13 +91,13 @@ def show_ocariza_comment():
     "and you’re doing just that, Rose.")
     buffer()
 
+def show_anipan_comment():
+    clear_screen()
+    print("Comment from Highpyve-Kristoffer")
+    print("Keep up the good work, this turned out great!")
+    buffer()
+
 def exit_program():
     clear_screen()
     buffer()
 
-def show_anipan_comment():
-    clear_screen()
-    print("Comment from Highpyve-Kristoffer")
-    clear_screen()
-    print("Keep up the good work, this turned out great!")
-    buffer()
