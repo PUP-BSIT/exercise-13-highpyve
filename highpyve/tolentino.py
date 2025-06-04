@@ -82,8 +82,8 @@ def show_quotes():
 def show_ocariza_comment():
     clear_screen()
     print("Comment from Highpyve-Jaira")
-    print("\nMotivated people motivate people—"
-    "and you’re doing just that, Rose.")
+    print("\nMotivated people motivate people— "
+            "and you’re doing just that, Rose.")
     buffer()
 
 def show_anipan_comment():

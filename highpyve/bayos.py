@@ -80,8 +80,8 @@ def show_goals():
 def show_ocariza_comment():
     clear_screen()
     print("Comment from Highpyve-Jaira")
-    print("\nRooting for you always, Eurielle. " 
-    "You’re meant for great things.")
+    print("\nRooting for you always, Eurielle. "
+            "You’re meant for great things.")
     buffer()
 
 def show_tolentino_comment():
