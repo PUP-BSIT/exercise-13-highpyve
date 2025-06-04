@@ -46,11 +46,7 @@ def ocariza_menu():
             case 6:
                 show_bayos_comment()
             case 7:
-                clear_screen()
-                print("Comment from Highpyve-Rose")
-                print("Amazing work, Jaira! Your colorful, well-crafted "
-                      "interface makes your code both fun and impressive")
-                buffer() 
+                show_tolentino_comment()
             case 0:
                 print(Fore.LIGHTYELLOW_EX + "Exiting menu... Goodbye!")
                 break
