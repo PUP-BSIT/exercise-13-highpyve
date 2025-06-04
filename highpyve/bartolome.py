@@ -19,6 +19,7 @@ def bartolome_menu():
         print("4. Jaira's Comment")
         print("5. Kristoffer's Comment")
         print("6. Eurielle's Comment")
+        print("7. Rose's Comment")
         print("0. Exit profile.")
         print("*************************************************")
         
@@ -37,7 +38,7 @@ def bartolome_menu():
             case 3:
                 show_favorites()
             case 4:
-                print("Your dreams are valid, and your direction is clear." \
+                print("Your dreams are valid, and your direction is clear." 
                       "Keep going, Mika!")
                 buffer()
             case 5: 
@@ -46,6 +47,11 @@ def bartolome_menu():
             case 6:
                 print("Your attention to detail is impressive, Bartolome.")
                 buffer()
+            case 7:
+                print("Comment from Highpyve-Rose")
+                print("Nice work, Mika! Your organized and lively code reflects"
+                      " great enthusiasm!")
+                buffer() 
             case 0:
                 print("Thank you for visiting Mikaela's profile!")
                 break

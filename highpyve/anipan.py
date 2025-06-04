@@ -18,10 +18,11 @@ def anipan_menu():
         print("3. Jaira's Comment")
         print("4. Mikaela's Comment")
         print("5. Eurielle's Comment")
+        print("6. Rose's Comment")
         print("0. Exit")
 
         try:
-            choice = int(input("Enter your choice (1-5): "))
+            choice = int(input("Enter your choice (1-6): "))
         except ValueError:
             print("\nInvalid input. Please try again.")
             continue
@@ -32,7 +33,7 @@ def anipan_menu():
             case 2:
                 show_goals()
             case 3:
-                print("\nClear code, clear goals. " \
+                print("\nClear code, clear goals. " 
                       "Keep coding with purpose, Kristoffer!")
                 buffer()
             case 4:
@@ -41,6 +42,11 @@ def anipan_menu():
             case 5:
                 print("Comment from Highpyve-Eurielle")
                 print("Your ideas are always thoughtful and well-articulated.")
+                buffer() 
+            case 6:
+                print("Comment from Highpyve-Rose")
+                print("Great job, Kristoffer! Your clean menu and "
+                      "well-structured functions show solid coding skills!")
                 buffer() 
             case 0:
                 print("\nGoodbye! Thank you for visiting.")

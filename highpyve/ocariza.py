@@ -22,6 +22,7 @@ def ocariza_menu():
         print("4. Mikaela's Comment")
         print("5. Kristoffer's Comment")
         print("6. Eurielle's Comment")
+        print("7. Rose's Comment")
         print("0. Exit")
 
         try:
@@ -44,9 +45,14 @@ def ocariza_menu():
                 print("You’ve done a solid and thorough job!")
                 buffer()
             case 6:
-                print("I really appreciate  your reliability, " \
+                print("I really appreciate  your reliability, " 
                 "you're someone we can always count on.")
                 buffer()
+            case 6:
+                print("Comment from Highpyve-Rose")
+                print("Amazing work, Jaira! Your colorful, well-crafted "
+                      "interface makes your code both fun and impressive")
+                buffer() 
             case 0:
                 print(Fore.LIGHTYELLOW_EX + "Exiting menu... Goodbye!")
                 break

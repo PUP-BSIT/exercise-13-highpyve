@@ -19,11 +19,12 @@ def bayos_main():
        print("3. Jaira's Comment")
        print("4. Mikaela's Comment")
        print("5. Kristoffer's Comment")
+       print("6. Rose's Comment")
        print("0. Exit.")
        print("*************************************************")
        
        try:
-           user_input = int(input("Enter your choice from 1-5: "))
+           user_input = int(input("Enter your choice from 1-6: "))
        except ValueError:
            print("Invalid input. Please try again.")
            buffer()
@@ -35,7 +36,7 @@ def bayos_main():
            case 2:
                show_goals()
            case 3:
-               print("\nRooting for you always, Eurielle. " \
+               print("\nRooting for you always, Eurielle. " 
                "You’re meant for great things.")
                buffer()
            case 4: 
@@ -44,6 +45,11 @@ def bayos_main():
            case 5: 
                print("This looks very neat and well thought out!")
                buffer()
+           case 6:
+                print("Comment from Highpyve-Rose")
+                print("Well done, Eurielle! Your clear layout and meaningful "
+                      "goals show strong purpose and direction!")
+                buffer() 
            case 0:
                print("\nThank you for visiting Eurielle's profile!")
                break
