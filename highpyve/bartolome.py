@@ -38,10 +38,7 @@ def bartolome_menu():
             case 3:
                 show_favorites()
             case 4:
-                clear_screen()
-                print("Your dreams are valid, and your direction is clear." 
-                      "Keep going, Mika!")
-                buffer()
+                show_ocariza_comment()
             case 5: 
                show_anipan_comment()
             case 6:
@@ -97,6 +94,13 @@ def show_favorites():
     print("*************************************************")
     buffer()
 
+def show_ocariza_comment():
+    clear_screen()
+    print("Comment from Highpyve-Jaira")
+    print("Your dreams are valid, and your direction is clear." 
+            "Keep going, Mika!")
+    buffer()
+
 def show_tolentino_comment():
     clear_screen()
     print("Comment from Highpyve-Rose")
@@ -107,6 +111,5 @@ def show_tolentino_comment():
 def show_anipan_comment():
     clear_screen()
     print("Comment from Highpyve-Kristoffer")
-    clear_screen()
     print("You did a really great job!")
     buffer()

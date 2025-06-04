@@ -35,10 +35,7 @@ def anipan_menu():
             case 2:
                 show_goals()
             case 3:
-                clear_screen()
-                print("\nClear code, clear goals. " 
-                      "Keep coding with purpose, Kristoffer!")
-                buffer()
+                show_ocariza_comment()
             case 4:
                 clear_screen()
                 print("Comment from Highpyve-Mika")
@@ -77,6 +74,13 @@ def show_goals():
     print("5. Maintain a good balance between career and personal life.")
     print("6. Keep improving and learning continuously.")
     print("7. Make a positive impact on others and the community.")
+    buffer()
+
+def show_ocariza_comment():
+    clear_screen()
+    print("Comment from Highpyve-Jaira")
+    print("\nClear code, clear goals. " 
+            "Keep coding with purpose, Kristoffer!")
     buffer()
     
 def show_tolentino_comment():

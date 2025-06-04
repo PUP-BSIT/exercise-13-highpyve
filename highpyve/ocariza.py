@@ -47,11 +47,15 @@ def ocariza_menu():
                 show_anipan_comment()
             case 6:
                 clear_screen()
-                print("I really appreciate  your reliability, " 
-                "you're someone we can always count on.")
+                print("I really appreciate your reliability, " 
+                    "you're someone we can always count on.")
                 buffer()
             case 7:
-                show_tolentino_comment()
+                clear_screen()
+                print("Comment from Highpyve-Rose")
+                print("Amazing work, Jaira! Your colorful, well-crafted "
+                      "interface makes your code both fun and impressive")
+                buffer() 
             case 0:
                 print(Fore.LIGHTYELLOW_EX + "Exiting menu... Goodbye!")
                 break
@@ -71,8 +75,10 @@ def show_basic_info():
 def show_goals():
     clear_screen()
     print(Fore.LIGHTMAGENTA_EX + "Goals")
-    print("- I aspire to become a skilled Full Stack Developer,")
-    print("- who crafts intuitive and elegant digital experiences!")
+    print("- To graduate and help support my family’s future.")
+    print("- To grow into someone my younger self would be proud of.")
+    print("- To become a skilled Full Stack Developer,"
+          " who crafts intuitive and elegant digital experiences!")
     buffer()
 
 def show_fun_facts():
@@ -93,6 +99,5 @@ def show_tolentino_comment():
 def show_anipan_comment():
     clear_screen()
     print("Comment from Highpyve-Kristoffer")
-    clear_screen()
     print("You’ve done a solid and thorough job!")
     buffer()

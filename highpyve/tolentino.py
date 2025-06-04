@@ -38,10 +38,7 @@ def tolentino_menu():
             case 2:
                 show_quotes()
             case 3:
-                clear_screen()
-                print("\nMotivated people motivate people—"
-                "and you’re doing just that, Rose.")
-                buffer()
+                show_ocariza_comment()
             case 4:
                 clear_screen()
                 print("Comment from Highpyve-Mika")
@@ -87,13 +84,20 @@ def show_quotes():
     print("╚════════════════════════════════════════════════════════════╝\n")
     buffer()
 
-def exit_program():
+def show_ocariza_comment():
     clear_screen()
+    print("Comment from Highpyve-Jaira")
+    print("\nMotivated people motivate people—"
+    "and you’re doing just that, Rose.")
     buffer()
 
 def show_anipan_comment():
     clear_screen()
     print("Comment from Highpyve-Kristoffer")
-    clear_screen()
     print("Keep up the good work, this turned out great!")
     buffer()
+
+def exit_program():
+    clear_screen()
+    buffer()
+
