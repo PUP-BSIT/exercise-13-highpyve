@@ -51,11 +51,7 @@ def bartolome_menu():
                 print("Your attention to detail is impressive, Bartolome.")
                 buffer()
             case 7:
-                clear_screen()
-                print("Comment from Highpyve-Rose")
-                print("Nice work, Mika! Your organized and lively code reflects"
-                      " great enthusiasm!")
-                buffer() 
+                show_tolentino_comment() 
             case 0:
                 print("Thank you for visiting Mikaela's profile!")
                 break
@@ -101,4 +97,11 @@ def show_favorites():
     print("3. My Melody merch or anything pink.")
     print("4. Karaoke booths.")
     print("*************************************************")
+    buffer()
+
+def show_tolentino_comment():
+    clear_screen()
+    print("Comment from Highpyve-Rose")
+    print("Nice work, Mika! Your organized and lively code reflects"
+            " great enthusiasm!")
     buffer()
