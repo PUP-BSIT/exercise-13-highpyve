@@ -39,13 +39,25 @@ def ocariza_menu():
             case 3:
                 show_fun_facts()
             case 4:
-                show_bartolome_comment()
+                clear_screen()
+                print("Comment from Highpyve-Mika")
+                print("Drop skincare routine!\n")
+                buffer()
             case 5: 
-                show_anipan_comment()
+                clear_screen()
+                print("You’ve done a solid and thorough job!")
+                buffer()
             case 6:
-                show_bayos_comment()
+                clear_screen()
+                print("I really appreciate your reliability, " 
+                    "you're someone we can always count on.")
+                buffer()
             case 7:
-                show_tolentino_comment()
+                clear_screen()
+                print("Comment from Highpyve-Rose")
+                print("Amazing work, Jaira! Your colorful, well-crafted "
+                    "interface makes your code both fun and impressive")
+                buffer()
             case 0:
                 print(Fore.LIGHTYELLOW_EX + "Exiting menu... Goodbye!")
                 break
@@ -77,28 +89,4 @@ def show_fun_facts():
     print("- I enjoy skincare routines as self-care.")
     print("- Patch, my dog, is my coding buddy!")
     print("- I secretly enjoy debugging—it's like solving a mystery.")
-    buffer()
-
-def show_bartolome_comment():
-    clear_screen()
-    print("Comment from Highpyve-Mika")
-    print("Drop skincare routine!\n")
-    buffer()
-
-def show_anipan_comment():
-    clear_screen()
-    print("You’ve done a solid and thorough job!")
-    buffer()
-
-def show_bayos_comment():
-    clear_screen()
-    print("I really appreciate your reliability, " 
-          "you're someone we can always count on.")
-    buffer()
-
-def show_tolentino_comment():
-    clear_screen()
-    print("Comment from Highpyve-Rose")
-    print("Amazing work, Jaira! Your colorful, well-crafted "
-          "interface makes your code both fun and impressive")
     buffer()
