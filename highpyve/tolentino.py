@@ -47,9 +47,7 @@ def tolentino_menu():
             case 5:
                 show_anipan_comment()
             case 6:
-                clear_screen()
-                print("You handle challenges with such calm and focus.")
-                buffer()
+                show_bayos_comment()
             case 0:
                 exit_program()
                 break
@@ -95,6 +93,12 @@ def show_anipan_comment():
     clear_screen()
     print("Comment from Highpyve-Kristoffer")
     print("Keep up the good work, this turned out great!")
+    buffer()
+
+def show_bayos_comment():
+    clear_screen()
+    print("Comment from Highpyve-Eurielle")
+    print("You handle challenges with such calm and focus.")
     buffer()
 
 def exit_program():

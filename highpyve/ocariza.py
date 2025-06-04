@@ -46,10 +46,7 @@ def ocariza_menu():
             case 5: 
                 show_anipan_comment()
             case 6:
-                clear_screen()
-                print("I really appreciate your reliability, " 
-                    "you're someone we can always count on.")
-                buffer()
+                show_bayos_comment()
             case 7:
                 clear_screen()
                 print("Comment from Highpyve-Rose")
@@ -101,3 +98,10 @@ def show_anipan_comment():
     print("Comment from Highpyve-Kristoffer")
     print("You’ve done a solid and thorough job!")
     buffer()
+
+def show_bayos_comment():
+    clear_screen()
+    print("Comment from Highpyve-Eurielle")
+    print("I really appreciate your reliability, " 
+          "you're someone we can always count on.")
+    buffer()    
