@@ -1,6 +1,7 @@
 import os
 from highpyve import anipan, bartolome, tolentino, bayos, ocariza
 
+# Clear the screen based on OS
 def clear():
     os.system('cls' if os.name == 'nt' else 'clear')
 
@@ -23,7 +24,8 @@ while True:
         print("\nInvalid input! Please enter a number.")
         input("Press Enter to continue...")
         continue
-        
+    
+    # Exit loop if user selects 0    
     if user_choice == 0:
         clear()
         print("Thank you for using HighPyve Main Menu! Exiting...")
