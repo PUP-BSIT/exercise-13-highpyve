@@ -38,10 +38,7 @@ def bayos_main():
            case 3:
                show_ocariza_comment()
            case 4: 
-                clear_screen()
-                print("Comment from Highpyve-Mika")
-                print("Hope you live a better life from now on!\n")
-                buffer()
+                show_bartolome_comment()
            case 5: 
                show_anipan_comment()
            case 6:
@@ -98,4 +95,10 @@ def show_anipan_comment():
     clear_screen()
     print("Comment from Highpyve-Kristoffer")
     print("This looks very neat and well thought out!")
+    buffer()
+
+def show_bartolome_comment():
+    clear_screen()
+    print("Comment from Highpyve-Mika")
+    print("Hope you live a better life from now on!\n")
     buffer()
