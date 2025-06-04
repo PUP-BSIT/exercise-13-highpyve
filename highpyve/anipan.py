@@ -17,10 +17,11 @@ def anipan_menu():
         print("2. Goals")
         print("3. Jaira's Comment")
         print("4. Mikaela's Comment")
+        print("5. Eurielle's Comment")
         print("0. Exit")
 
         try:
-            choice = int(input("Enter your choice (1-4): "))
+            choice = int(input("Enter your choice (1-5): "))
         except ValueError:
             print("\nInvalid input. Please try again.")
             continue
@@ -37,6 +38,10 @@ def anipan_menu():
             case 4:
                 print("Comment from Highpyve-Mika")
                 print("Hope you achieve every goal that you have!\n")
+            case 5:
+                print("Comment from Highpyve-Eurielle")
+                print("Your ideas are always thoughtful and well-articulated.")
+                buffer() 
             case 0:
                 print("\nGoodbye! Thank you for visiting.")
                 break
@@ -45,7 +50,7 @@ def anipan_menu():
 
 def show_basic_info():
     clear_screen()
-    print("Basic Information")
+    print("Basic Information")  
     print("\n1. Name: Sigmund Kristoffer S. Anipan")
     print("2. Age: 20 years old")
     print("3. Address: Ibayo-Tipas, Taguig City")
