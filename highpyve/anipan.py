@@ -37,10 +37,7 @@ def anipan_menu():
             case 3:
                 show_ocariza_comment()
             case 4:
-                clear_screen()
-                print("Comment from Highpyve-Mika")
-                print("Hope you achieve every goal that you have!\n")
-                buffer()
+                show_bartolome_comment()
             case 5:
                 show_bayos_comment()
             case 6:
