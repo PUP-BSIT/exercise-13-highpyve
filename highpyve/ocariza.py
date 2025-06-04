@@ -52,7 +52,7 @@ def ocariza_menu():
                 print("I really appreciate  your reliability, " 
                 "you're someone we can always count on.")
                 buffer()
-            case 6:
+            case 7:
                 clear_screen
                 print("Comment from Highpyve-Rose")
                 print("Amazing work, Jaira! Your colorful, well-crafted "
