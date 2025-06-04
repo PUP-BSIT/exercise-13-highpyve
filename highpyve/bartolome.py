@@ -95,7 +95,7 @@ def show_ocariza_comment():
     clear_screen()
     print("Comment from Highpyve-Jaira")
     print("Your dreams are valid, and your direction is clear." 
-            "Keep going, Mika!")
+            " Keep going, Mika!")
     buffer()
 
 def show_tolentino_comment():
