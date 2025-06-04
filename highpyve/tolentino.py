@@ -40,10 +40,7 @@ def tolentino_menu():
             case 3:
                 show_ocariza_comment()
             case 4:
-                clear_screen()
-                print("Comment from Highpyve-Mika")
-                print("We do create our opportunities. Love the quote!")
-                buffer()
+                show_bartolome_comment()
             case 5:
                 show_anipan_comment()
             case 6:
@@ -99,6 +96,12 @@ def show_bayos_comment():
     clear_screen()
     print("Comment from Highpyve-Eurielle")
     print("You handle challenges with such calm and focus.")
+    buffer()
+
+def show_bartolome_comment():
+    clear_screen()
+    print("Comment from Highpyve-Mika")
+    print("We do create our opportunities. Love the quote!")
     buffer()
 
 def exit_program():

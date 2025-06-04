@@ -27,6 +27,7 @@ def anipan_menu():
             choice = int(choice)
         except ValueError:
             print("\nInvalid input. Please try again.")
+            buffer()
             continue
 
         match choice:
@@ -37,10 +38,7 @@ def anipan_menu():
             case 3:
                 show_ocariza_comment()
             case 4:
-                clear_screen()
-                print("Comment from Highpyve-Mika")
-                print("Hope you achieve every goal that you have!\n")
-                buffer()
+                show_bartolome_comment()
             case 5:
                 show_bayos_comment()
             case 6:
@@ -50,6 +48,7 @@ def anipan_menu():
                 break
             case _:
                 print("\nInvalid choice. Please enter a valid number.")
+                buffer()
 
 def show_basic_info():
     clear_screen()
@@ -92,3 +91,9 @@ def show_bayos_comment():
     print("Comment from Highpyve-Eurielle")
     print("Your ideas are always thoughtful and well-articulated.")
     buffer() 
+
+def show_bartolome_comment():
+    clear_screen()
+    print("Comment from Highpyve-Mika")
+    print("Hope you achieve every goal that you have!\n")
+    buffer()

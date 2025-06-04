@@ -29,6 +29,7 @@ def ocariza_menu():
             choice = int(input(Fore.LIGHTYELLOW_EX + "\nEnter your choice: "))
         except ValueError:
             print(Fore.LIGHTRED_EX + "Please enter a valid number.")
+            buffer()
             continue
 
         match choice:
@@ -39,25 +40,19 @@ def ocariza_menu():
             case 3:
                 show_fun_facts()
             case 4:
-                clear_screen()
-                print("Comment from Highpyve-Mika")
-                print("Drop skincare routine!\n")
-                buffer()
+                show_bartolome_comment()
             case 5: 
                 show_anipan_comment()
             case 6:
                 show_bayos_comment()
             case 7:
-                clear_screen()
-                print("Comment from Highpyve-Rose")
-                print("Amazing work, Jaira! Your colorful, well-crafted "
-                      "interface makes your code both fun and impressive")
-                buffer() 
+                show_tolentino_comment()
             case 0:
                 print(Fore.LIGHTYELLOW_EX + "Exiting menu... Goodbye!")
                 break
             case _:
                 print(Fore.LIGHTRED_EX + "Invalid choice. Please try again.")
+                buffer()
 
 def show_basic_info():
     clear_screen()
@@ -105,3 +100,9 @@ def show_bayos_comment():
     print("I really appreciate your reliability, " 
           "you're someone we can always count on.")
     buffer()    
+
+def show_bartolome_comment():
+    clear_screen()
+    print("Comment from Highpyve-Mika")
+    print("Drop skincare routine!\n")
+    buffer()
