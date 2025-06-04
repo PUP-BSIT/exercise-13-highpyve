@@ -16,10 +16,11 @@ def bayos_main():
        print("*************************************************")
        print("1. Eurielle’s Basic Information.")
        print("2. Eurielle’s Goals in life.")
-       print("3. Exit.")
+       print("3. Jaira's Comment")
+       print("4. Exit.")
        print("*************************************************")
        try:
-           user_input = int(input("Enter your choice from 1-3: "))
+           user_input = int(input("Enter your choice from 1-4: "))
        except ValueError:
            print("Invalid input. Please try again.")
            buffer()
@@ -31,6 +32,10 @@ def bayos_main():
            case 2:
                show_goals()
            case 3:
+               print("\nRooting for you always, Eurielle. " \
+               "You’re meant for great things.")
+               buffer()
+           case 4:
                print("\nThank you for visiting Eurielle's profile!")
                break
            case _:

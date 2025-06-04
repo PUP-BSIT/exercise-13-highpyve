@@ -16,7 +16,7 @@ def bartolome_menu():
         print("1. Know my Basic Information.")
         print("2. Know my Goals in life.")
         print("3. Know my favorite things.")
-        print("4. Jaira's Comments")
+        print("4. Jaira's Comment")
         print("0. Exit profile.")
         print("*************************************************")
         
