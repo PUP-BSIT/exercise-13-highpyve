@@ -4,7 +4,7 @@ def clear_screen():
     os.system('cls' if os.name == 'nt' else 'clear')
 
 def buffer():
-   input("Press Enter to return to menu...")
+   input("\nPress Enter to return to menu...")
    clear_screen()
 
 def bayos_main():
@@ -36,16 +36,21 @@ def bayos_main():
            case 2:
                show_goals()
            case 3:
+               clear_screen()
                print("\nRooting for you always, Eurielle. " 
                "You’re meant for great things.")
                buffer()
            case 4: 
+                clear_screen()
                 print("Comment from Highpyve-Mika")
                 print("Hope you live a better life from now on!\n")
+                buffer()
            case 5: 
+               clear_screen()
                print("This looks very neat and well thought out!")
                buffer()
            case 6:
+                clear_screen()
                 print("Comment from Highpyve-Rose")
                 print("Well done, Eurielle! Your clear layout and meaningful "
                       "goals show strong purpose and direction!")

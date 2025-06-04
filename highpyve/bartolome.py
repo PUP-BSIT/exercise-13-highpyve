@@ -4,7 +4,7 @@ def clear_screen():
     os.system('cls' if os.name == 'nt' else 'clear')
 
 def buffer():
-    input("Press [ENTER] to return to main menu...")
+    input("\nPress [ENTER] to return to main menu...")
     clear_screen()
 
 def bartolome_menu():
@@ -38,16 +38,20 @@ def bartolome_menu():
             case 3:
                 show_favorites()
             case 4:
+                clear_screen()
                 print("Your dreams are valid, and your direction is clear." 
                       "Keep going, Mika!")
                 buffer()
             case 5: 
+                clear_screen()
                 print("You did a really great job!")
                 buffer()
             case 6:
+                clear_screen()
                 print("Your attention to detail is impressive, Bartolome.")
                 buffer()
             case 7:
+                clear_screen()
                 print("Comment from Highpyve-Rose")
                 print("Nice work, Mika! Your organized and lively code reflects"
                       " great enthusiasm!")

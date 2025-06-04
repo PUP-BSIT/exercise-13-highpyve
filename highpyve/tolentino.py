@@ -4,7 +4,7 @@ def clear_screen():
     os.system('cls' if os.name == 'nt' else 'clear')
 
 def buffer():
-    input("Press [ENTER] to return to main menu...")
+    input("\nPress [ENTER] to return to main menu...")
     clear_screen()
     
 def tolentino_menu():
@@ -38,16 +38,21 @@ def tolentino_menu():
             case 2:
                 show_quotes()
             case 3:
+                clear_screen()
                 print("\nMotivated people motivate people—"
                 "and you’re doing just that, Rose.")
                 buffer()
             case 4:
+                clear_screen()
                 print("Comment from Highpyve-Mika")
                 print("We do create our opportunities. Love the quote!")
+                buffer()
             case 5:
+                clear_screen()
                 print("Keep up the good work, this turned out great!")
                 buffer()
             case 6:
+                clear_screen()
                 print("You handle challenges with such calm and focus.")
                 buffer()
             case 0:
