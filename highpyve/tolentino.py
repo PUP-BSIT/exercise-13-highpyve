@@ -18,7 +18,8 @@ def tolentino_menu():
         print("║   [1] Basic Info                                     ║")
         print("║   [2] Motivational Quotes                            ║")
         print("║   [3] Jaira's Comment                                ║")
-        print("║   [4] Return to Main Menu                            ║")
+        print("║   [4] Mikaela's Comment                              ║")
+        print("║   [0] Return to Main Menu                            ║")
         print("║                                                      ║")
         print("╚══════════════════════════════════════════════════════╝")
 
@@ -39,6 +40,9 @@ def tolentino_menu():
                 "and you’re doing just that, Rose.")
                 buffer()
             case 4:
+                print("Comment from Highpyve-Mika")
+                print("We do create our opportunities. Love the quote!")
+            case 0:
                 exit_program()
                 break
             case _:
