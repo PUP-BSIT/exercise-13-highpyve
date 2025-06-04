@@ -20,6 +20,7 @@ def tolentino_menu():
         print("║   [3] Jaira's Comment                                ║")
         print("║   [4] Mikaela's Comment                              ║")
         print("║   [5] Kristoffer's Comment                           ║")
+        print("║   [6] Eurielle's Comment                             ║")
         print("║   [0] Return to Main Menu                            ║")
         print("║                                                      ║")
         print("╚══════════════════════════════════════════════════════╝")
@@ -45,6 +46,9 @@ def tolentino_menu():
                 print("We do create our opportunities. Love the quote!")
             case 5:
                 print("Keep up the good work, this turned out great!")
+                buffer()
+            case 6:
+                print("You handle challenges with such calm and focus.")
                 buffer()
             case 0:
                 exit_program()
