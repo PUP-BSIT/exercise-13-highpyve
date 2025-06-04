@@ -92,3 +92,9 @@ def show_bayos_comment():
     print("Comment from Highpyve-Eurielle")
     print("Your ideas are always thoughtful and well-articulated.")
     buffer() 
+
+def show_bartolome_comment():
+    clear_screen()
+    print("Comment from Highpyve-Mika")
+    print("Hope you achieve every goal that you have!\n")
+    buffer()
