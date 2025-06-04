@@ -16,7 +16,8 @@ def anipan_menu():
         print("1. Basic Info")
         print("2. Goals")
         print("3. Jaira's Comment")
-        print("4. Exit")
+        print("4. Mikaela's Comment")
+        print("0. Exit")
 
         try:
             choice = int(input("Enter your choice (1-4): "))
@@ -34,6 +35,9 @@ def anipan_menu():
                       "Keep coding with purpose, Kristoffer!")
                 buffer()
             case 4:
+                print("Comment from Highpyve-Mika")
+                print("Hope you achieve every goal that you have!\n")
+            case 0:
                 print("\nGoodbye! Thank you for visiting.")
                 break
             case _:
